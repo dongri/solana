@@ -27,8 +27,10 @@ https://ja.wikipedia.org/wiki/Berkeley_Packet_Filter
 
 ソラナの最大の技術的影響力を持つLeslie Lamportにちなんで名付けられています。
 ETHで言うGweiと同じで、小数点以下9桁まで。
+```
 1 lamport = 0.000000001 SOL
 1 Gwei = 0.000000001 Ether
+```
 
 * SPL: Solana Program Library
 
