@@ -8,6 +8,7 @@ Solanaプログラムは状態を持たす、処理だけ行う。状態は渡�
 ## Glossary
 
 * Account
+
 Solana上のアカウントはいろんな意味を持ってる。
 1. ウォレットとしてトークンを保管する場所もアカウント
 2. プログラムもアカウントに保存される
@@ -15,18 +16,22 @@ Solana上のアカウントはいろんな意味を持ってる。
 
 
 * BPF: Berkeley Packet Filter
+
 https://ja.wikipedia.org/wiki/Berkeley_Packet_Filter
 
 * PDA: Program Derived Addresses
+
 秘密を鍵を持ってないアカウント、アドレス。Ethereumで言うとスマートコントラクトのアドレスに近いもの
 
 * lamport
+
 ソラナの最大の技術的影響力を持つLeslie Lamportにちなんで名付けられています。
 ETHで言うGweiと同じで、小数点以下9桁まで。
 1 lamport = 0.000000001 SOL
 1 Gwei = 0.000000001 Ether
 
 * SPL: Solana Program Library
+
 ソラナ（Solana）ではSPLというトークン規格が定められており、基本的にはSPLで定義されている規格にのっとった形でトークンの発行を行います。
 SolanaのSPLに該当するものとしてはイーサリアムのERC20が該当します。
 
