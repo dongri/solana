@@ -100,6 +100,7 @@ $ solana balance FaJfHzyBJgiJcBMb8MGAEcsqQg4JmoDKyxG579VL2n2d
 * run setup.ts to mint the tokens to be exchanged:
 ```
 $ ts-node ts/setup.ts
+
 Requesting SOL for Alice...
 Requesting SOL for Bob...
 Requesting SOL for Client...
@@ -122,7 +123,8 @@ Sending 50Y to Bob's Y TokenAccount...
 
 * run alice.ts to initialize the escrow program:
 ```
-ts-node ts/alice.ts
+$ ts-node ts/alice.ts
+
 Sending Alice's transaction...
 ✨Escrow successfully initialized. Alice is offering 5X for 3Y✨
 
@@ -136,6 +138,7 @@ Sending Alice's transaction...
 * run bob.ts to exchange and close the escrow account:
 ```
 $ ts-node ts/bob.ts
+
 Sending Bob's transaction...
 ✨Trade successfully executed. All temporary accounts closed✨
 
